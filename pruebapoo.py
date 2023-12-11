@@ -5,11 +5,11 @@ class Rectangulo:
 
     def calcular_area(self):
         self.area=self.longitud*self.ancho
-        return self.area
+      return area 
     
     def calcular_perimetro(self):
         self.perimetro=(self.longitud+self.ancho)*2
-        return self.perimetro
+       return perimetro
     
 obj1= Rectangulo(6,5)
 print(obj1.calcular_area())
