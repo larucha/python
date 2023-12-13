@@ -11,6 +11,10 @@ class Rectangulo:
         self.perimetro=(self.longitud+self.ancho)*2
        return perimetro
     
+<<<<<<< Updated upstream
 obj1= Rectangulo(6,5)
+=======
+obj1= Rectangulo(6,3)
+>>>>>>> Stashed changes
 print(obj1.calcular_area())
 print(obj1.calcular_perimetro())        
